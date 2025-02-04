@@ -1,17 +1,26 @@
-.icons {
+.icon {
   display: block;
   width: 24px;
   height: 24px;
+  background-image: url(../images/icons/icon-burger-menu.png);
+  background-size: cover;
+
+  @include onTablet {
+    width: 32px;
+    height: 32px;
+  }
+
+  &--phone {
+    background-image: url(../images/icons/phone-number.png);
+  }
+  
+  &--menu {
+   background-image: url(../images/icons/icon-burger-menu.png);
+  }
+  
+  &--close {
+    background-image: url(../images/icons/icon-close.png);
+  }  
 }
 
-.icon--phone {
-  background-image: url(../images/icons/phone-number.png);
-}
 
-.icon--menu {
- background-image: url(../images/icons/icon-burger-menu.png);
-}
-
-.icon--close {
-  background-image: url(../images/icons/icon-close.png);
-}
