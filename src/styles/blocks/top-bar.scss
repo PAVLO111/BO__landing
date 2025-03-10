@@ -11,13 +11,18 @@
     padding-block: 32px;
   }
 
-  &__logo {
+  &__logo-link {
     box-sizing: border-box;
     /* display: flex; */
   }
   
-  &__img {
+  &__logo {
     padding-top: 4px;
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
   
   &__icons {
