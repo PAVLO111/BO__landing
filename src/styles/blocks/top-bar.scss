@@ -23,7 +23,7 @@
   &__logo {
     height: 24px;
     padding-top: 4px;
-    transition: transform 0.3s;
+    transition: transform $effectDuration;
 
     @include hover(transform, scale(1.2));
 

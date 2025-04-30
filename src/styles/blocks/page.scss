@@ -17,7 +17,7 @@
     left: 0;
     right: 0;
     
-    transition: all 0.3s;
+    transition: all $effectDuration;
     transform: translate(-100%);
     opacity: 0;
     pointer-events: none;

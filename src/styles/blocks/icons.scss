@@ -4,7 +4,7 @@
   height: 24px;
   background-image: url(../images/icons/icon-burger-menu.png);
   background-size: cover;
-  transition: transform 0.3s;
+  transition: transform $effectDuration;
 
   @include hover(transform, scale(1.2));
 
