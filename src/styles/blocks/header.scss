@@ -1,15 +1,10 @@
 .header {
-  display: none !important;
+  // display: none !important;
 
-  box-sizing: border-box;
   background-image: url(../images/header-bg-mobile.png);
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
+  
   &__title {
     margin: 0;
     font-weight: 700;
@@ -22,9 +17,16 @@
     }
   }  
 
+  &__content {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   &__bottom {
     padding-bottom: 40px;
-    @include contentPaddingInline;
 
     @include onTablet {
       padding-bottom: 64px;
