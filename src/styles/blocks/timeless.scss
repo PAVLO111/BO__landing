@@ -1,7 +1,22 @@
 .timeless {
   background-color: #FCFAEF;
 
-  @include pageGrid;
+  &__image {
+    width: 100%;
+    height: 100%;
+
+    grid-column: 1 / -1;
+  }
+
+  &__content {
+    @include pageGrid;
+
+    padding: 48px 0;
+
+    @include onTablet {
+      padding: 120px 0;
+    }    
+  }
 
   &__title {
     grid-column: 1 / -1;
@@ -33,4 +48,7 @@
     }
   }
 }
+
+
+
 
