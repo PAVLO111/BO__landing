@@ -1,5 +1,7 @@
 .recomended {
   &__products {
+    display: none !important;
+
     @include pageGrid;
     row-gap: 40px;
   }
